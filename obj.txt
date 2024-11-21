@@ -10,7 +10,7 @@ isclicked
 
 x
 y
-z
+
 size
 dir
 costume
@@ -24,7 +24,7 @@ isclicking
 isclicked
 collision_size_x
 collision_size_y
-
+clone_isclicked
 
 
 
