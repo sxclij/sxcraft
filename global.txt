@@ -1,6 +1,3 @@
-ip
-sp
-bp
 
 
 
@@ -30,10 +27,6 @@ bp
 
 
 
-double utc_now
-bool mouse_isdown
-int mouse_x
-int mouse_y
 
 
 
@@ -126,12 +119,9 @@ int mouse_y
 
 
 
-int* obj_data
-vec<int*> obj_clone
-vec<int*> obj_free
 
 
 
 
 
-int* obj_camera
+
