@@ -14,11 +14,11 @@ utc_delta
 
 
 
-button_start
-button_menu
-button_quit
+startmenu_start_button
+startmenu_menu_button
+startmenu_quit_button
 
-
+startmenu_started_time
 
 
 
@@ -31,8 +31,8 @@ button_quit
 
 
 mouse_isdown_last
-
-
+mouse_x
+mouse_y
 
 
 

@@ -19,9 +19,9 @@ visibility
 
 
 
-collision_ishovered
-collision_isclicking
-collision_isclicked
+ishovered
+isclicking
+isclicked
 collision_size_x
 collision_size_y
 
