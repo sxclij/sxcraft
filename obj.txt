@@ -10,7 +10,7 @@ isclicked
 
 x
 y
-z
+
 size
 dir
 costume
