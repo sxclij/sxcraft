@@ -14,9 +14,9 @@ utc_delta
 
 
 
-startmenu_start_button
-startmenu_menu_button
-startmenu_quit_button
+obj_startbutton
+obj_menubutton
+obj_quitbutton
 
 startmenu_started_time
 
@@ -30,9 +30,10 @@ startmenu_started_time
 
 
 
-mouse_isdown_last
+obj_mouse
 mouse_x
 mouse_y
+mouse_isdown_last
 
 
 
@@ -45,8 +46,7 @@ mouse_y
 
 
 
-
-test
+obj_camera
 
 
 
