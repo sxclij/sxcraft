@@ -62,9 +62,9 @@ obj_camera
 
 
 
-test
-
-
+class_button
+class_cell
+class_star
 
 
 
