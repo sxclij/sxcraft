@@ -1,8 +1,8 @@
-000, empty
-001, cube_x2
-002, startbutton
-003, menubutton
-004, quitbutton
-005, creditbutton
-006, fallingstar
-007, sky
+empty
+cube_x2
+startbutton
+menubutton
+quitbutton
+creditbutton
+fallingstar
+sky

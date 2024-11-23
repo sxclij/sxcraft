@@ -16,7 +16,7 @@ any tmp14
 any tmp15
 any tmp16
 int sp
-obj* obj_current
+obj* current
 
 float utc_now
 float utc_last
@@ -30,7 +30,7 @@ float utc_started
 
 vec<obj*> obj_data
 vec<obj*> obj_free
-vec<obj*> obj_clone
+
 vec<obj*> obj_priority
 vec<obj*> obj_layer
 
@@ -41,3 +41,34 @@ vec<obj*> obj_layer
 vec<obj*> class_star
 vec<obj*> class_menu
 vec<obj*> class_num
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+obj* camera
+int camera_pos_x
+int camera_pos_y
+
+
+
+
+
+
+
+obj* mouse
+int mouse_pos_x
+int mouse_pos_y
+bool mouse_isdown_last
