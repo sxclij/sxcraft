@@ -19,9 +19,9 @@ visibility
 
 
 
-ishovered
-isclicking
-isclicked
+utc_ishovered
+utc_isclicking
+utc_isclicked
 collision_size_x
 collision_size_y
 clone_isclicked
