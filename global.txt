@@ -47,8 +47,8 @@ mouse_isdown_last
 
 
 obj_camera
-
-
+camera_x
+camera_y
 
 
 
