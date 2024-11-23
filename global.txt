@@ -18,10 +18,10 @@ any tmp16
 int sp
 obj* current
 
-float utc_now
-float utc_last
-float utc_delta
-float utc_started
+utc now
+utc last
+float delta
+utc started
 
 
 

@@ -8,28 +8,28 @@
 
 
 
-pos_x
-pos_y
-size
-dir
-costume
-visibility
+float pos_x
+float pos_y
+int size
+int dir
+int costume
+float visibility
 
 
 
 
-utc_ishovered
-utc_isclicking
-utc_isclicked
-collision_size_x
-collision_size_y
-
-
+int collision_x
+int collision_y
+utc ishovered
+utc isclicking
+utc isclicked
 
 
 
 
 
+int mode_index
+utc mode_changed
 
 
 
