@@ -1,15 +1,15 @@
 type
 uid
 utc_spawned
-isactive
-isinited
-isclicked
 
 
 
 
-x
-y
+
+
+
+pos_x
+pos_y
 
 size
 dir
@@ -24,7 +24,7 @@ utc_isclicking
 utc_isclicked
 collision_size_x
 collision_size_y
-clone_isclicked
+
 
 
 
