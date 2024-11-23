@@ -10,11 +10,11 @@ utc_spawned
 
 pos_x
 pos_y
-
 size
 dir
 costume
 visibility
+
 
 
 
