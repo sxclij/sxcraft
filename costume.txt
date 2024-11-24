@@ -6,3 +6,5 @@ quitbutton
 creditbutton
 fallingstar
 sky
+mountain
+sun

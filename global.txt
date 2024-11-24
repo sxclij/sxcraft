@@ -78,3 +78,4 @@ bool mouse_isdown_last
 
 
 
+obj* player
