@@ -22,9 +22,9 @@ utc now
 utc last
 float delta
 utc started
-
-
-
+float delta_total
+int frame_total
+float fps_ave
 
 
 
