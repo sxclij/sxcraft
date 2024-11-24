@@ -41,7 +41,7 @@ vec<obj*> obj_layer
 vec<obj*> class_star
 vec<obj*> class_menu
 vec<obj*> class_num
-vec<obj*> class_minion
+vec<obj*> class_slime
 
 
 
