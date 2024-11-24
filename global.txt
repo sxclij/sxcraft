@@ -38,10 +38,10 @@ vec<obj*> obj_layer
 
 
 
-vec<obj*> class_star
-vec<obj*> class_menu
-vec<obj*> class_num
-vec<obj*> class_slime
+vec<obj*> type_global
+vec<obj*> type_star
+vec<obj*> type_
+vec<obj*> type_
 
 
 
@@ -79,3 +79,23 @@ bool mouse_isdown_last
 
 
 obj* player
+int player_pos_x
+int player_pos_y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+utc star_lastspawn
