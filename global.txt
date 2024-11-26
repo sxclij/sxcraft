@@ -41,7 +41,7 @@ vec<obj*> obj_layer
 vec<obj*> type_global
 vec<obj*> type_star
 vec<obj*> type_delnext
-vec<obj*> type_
+vec<obj*> type_notice
 
 
 
@@ -99,3 +99,11 @@ int player_pos_y
 
 
 utc star_lastspawn
+int star_count
+
+
+
+
+
+
+
