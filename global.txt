@@ -40,7 +40,7 @@ vec<obj*> obj_layer
 
 vec<obj*> type_global
 vec<obj*> type_star
-vec<obj*> type_
+vec<obj*> type_string
 vec<obj*> type_
 
 

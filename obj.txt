@@ -30,45 +30,14 @@ utc isclicked
 
 int mode_index
 utc mode_changed
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+any dst1
+any dst2
+any dst3
+any dst4
+any src1
+any src2
+any src3
+any src4
 
 
 
