@@ -28,11 +28,11 @@ float fps_ave
 
 
 
-vec<obj*> obj_data
+vec<int> obj_data
 vec<obj*> obj_free
+vec<int> node_data
+vec<node*> node_free
 
-vec<obj*> obj_priority
-vec<obj*> obj_layer
 
 
 
