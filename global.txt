@@ -33,7 +33,7 @@ vec<obj*> obj_free
 vec<int> node_data
 vec<node*> node_free
 
-
+map<layer, *obj> obj_priority
 
 
 
