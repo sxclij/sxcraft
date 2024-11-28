@@ -14,7 +14,7 @@ int size
 int dir
 int costume
 float visibility
-
+float priority
 
 
 
