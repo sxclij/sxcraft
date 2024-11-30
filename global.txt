@@ -20,8 +20,8 @@ obj* current
 
 utc now
 utc last
-float delta
 utc started
+float delta
 float delta_total
 int frame_total
 float fps_ave
@@ -33,15 +33,15 @@ vec<obj*> obj_free
 vec<int> node_data
 vec<node*> node_free
 vec<obj*> obj_clone
+map<float, obj*> obj_priority
 
 
 
 
-
-vec<obj*> type_global
-vec<obj*> type_star
-vec<obj*> type_delnext
-vec<obj*> type_notice
+map<obj*, obj*> type_global
+map<obj*, obj*> type_star
+map<obj*, obj*> type_delnext
+map<obj*, obj*> type_notice
 
 
 
