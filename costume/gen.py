@@ -21,22 +21,24 @@ def generate_svg(char):
 
     return svg_template.format(char=char)
 
-# 0~9のSVGファイルを生成
-for i in range(10):
-    svg_string = generate_svg(str(i))
-    with open(f"{i}.svg", "w") as f:
-        f.write(svg_string)
+# # 0~9のSVGファイルを生成
+# for i in range(10):
+#     svg_string = generate_svg(str(i))
+#     with open(f"{i}.svg", "w") as f:
+#         f.write(svg_string)
 
-# a~zのSVGファイルを生成
-for i in range(ord('a'), ord('z') + 1):
-    svg_string = generate_svg(chr(i))
-    with open(f"{chr(i)}.svg", "w") as f:
-        f.write(svg_string)
+# # a~zのSVGファイルを生成
+# for i in range(ord('a'), ord('z') + 1):
+#     svg_string = generate_svg(chr(i))
+#     with open(f"{chr(i)}.svg", "w") as f:
+#         f.write(svg_string)
 
 # その他記号のSVGファイルを生成 (例として !@#$%^&*() を生成)
 # symbols = "!@#$%^&*()"
-symbols = "!@#$%^()"
+symbols = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
+i = 0
 for symbol in symbols:
     svg_string = generate_svg(symbol)
-    with open(f"{symbol}.svg", "w") as f:
+    with open(f"sign_{i}.svg", "w") as f:
         f.write(svg_string)
+    i+=1
