@@ -107,3 +107,5 @@ utc star_lastspawn
 
 
 
+
+map<obj*, null> obj_hud #未実装
