@@ -32,16 +32,16 @@ vec<int> obj_data
 vec<obj*> obj_free
 vec<int> node_data
 vec<node*> node_free
-vec<obj*> obj_clone
+map<obj*, null> obj_all
 map<float, obj*> obj_priority
+map<float, obj*> obj_layer #未実装
+vec<obj*> obj_tmp1
+vec<obj*> obj_tmp2
+vec<obj*> obj_tmp3
+map<obj*, null> obj_global
+vec<obj*> obj_clone
 
 
-
-
-map<obj*, obj*> type_global
-map<obj*, obj*> type_star
-map<obj*, obj*> type_delnext
-map<obj*, obj*> type_notice
 
 
 
@@ -71,23 +71,16 @@ int camera_pos_y
 obj* mouse
 int mouse_pos_x
 int mouse_pos_y
-bool mouse_isdown_last
+bool mouse_isdown_last #未実装
 
 
 
 
 
 
-obj* player
-int player_pos_x
-int player_pos_y
-
-
-
-
-
-
-
+obj* player #未実装
+int player_pos_x #未実装
+int player_pos_y #未実装
 
 
 
@@ -98,9 +91,16 @@ int player_pos_y
 
 
 
-utc star_lastspawn
+
+
+
+
+
+
+
+map<obj*, null> obj_star
 int star_count
-
+utc star_lastspawn
 
 
 
