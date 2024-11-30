@@ -1,3 +1,5 @@
-0: camera, mouse
-100: sky
+0000: camera, mouse
+0100: sky
 1000: star
+1500: hud
+1900: debug

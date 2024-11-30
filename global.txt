@@ -99,7 +99,7 @@ int player_pos_y #未実装
 
 
 map<obj*, null> obj_star
-int star_count
+int star_count #未実装
 utc star_lastspawn
 
 
@@ -109,3 +109,13 @@ utc star_lastspawn
 
 
 map<obj*, null> obj_hud #未実装
+utc fps_lastspawn
+
+
+
+
+
+
+
+
+map<obj*, null> obj_particle
