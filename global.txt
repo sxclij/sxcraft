@@ -71,10 +71,11 @@ int camera_pos_y
 obj* mouse
 int mouse_pos_x
 int mouse_pos_y
-bool mouse_isdown_last #未実装
-
-
-
+int mouse_delta_x
+int mouse_delta_y
+int mouse_start_x
+int mouse_start_y
+utc mouse_down_start
 
 
 
