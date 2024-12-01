@@ -1,4 +1,5 @@
 0500: sky
 1000: hud
+1500: displaytext
 2000: star
 5000: camera, mouse

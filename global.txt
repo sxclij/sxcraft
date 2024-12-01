@@ -75,9 +75,8 @@ int mouse_delta_x
 int mouse_delta_y
 int mouse_start_x
 int mouse_start_y
-utc mouse_down_start
-
-
+utc mouse_down
+utc mouse_up
 
 obj* player #未実装
 int player_pos_x #未実装
