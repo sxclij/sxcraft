@@ -109,7 +109,7 @@ int star_count #未実装
 
 
 map<obj*, null> obj_ui #未実装
-map<obj*, null> obj_inventory
+map<obj*, null> obj_inventory #未実装
 
 
 
