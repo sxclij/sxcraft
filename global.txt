@@ -59,10 +59,10 @@ vec<obj*> obj_clone
 
 
 obj* camera
+int camera_last_x
+int camera_last_y
 int camera_pos_x
 int camera_pos_y
-
-
 
 
 
