@@ -109,7 +109,7 @@ int star_count #未実装
 
 
 map<obj*, null> obj_ui #未実装
-map<obj*, null> obj_inventory
+
 
 
 
@@ -119,3 +119,25 @@ map<obj*, null> obj_inventory
 
 
 map<obj*, null> obj_particle
+
+
+
+
+
+
+
+
+
+map<obj*, null> obj_inventory
+int inventory_selectedindex # 未実装
+
+
+
+
+
+
+
+
+map<obj*, null> obj_item
+map<str, struct item*> item_table
+vec<struct item> item_table_data
