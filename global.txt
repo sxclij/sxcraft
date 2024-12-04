@@ -129,7 +129,7 @@ map<obj*, null> obj_particle
 
 
 map<obj*, null> obj_inventory
-int inventory_selectedindex # 未実装
+int inventory_selectedindex #未実装
 
 
 
@@ -138,6 +138,6 @@ int inventory_selectedindex # 未実装
 
 
 
-map<obj*, null> obj_item
-map<str, struct item*> item_table
-vec<struct item> item_table_data
+map<obj*, null> obj_cell #未実装
+map<str, struct cell*> cell_table #未実装
+vec<struct cell> cell_table_data #未実装

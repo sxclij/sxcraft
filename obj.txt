@@ -30,14 +30,14 @@ utc clicked
 
 int mode_index
 utc mode_changed
-any dst1
-any dst2
-any dst3
-any dst4
+any dst1 #未実装
+any dst2 #未実装
+any dst3 #未実装
+any dst4 #未実装
 any src1
-any src2
-any src3
-any src4
+any src2 #未実装
+any src3 #未実装
+any src4 #未実装
 
 
 
@@ -48,10 +48,11 @@ any src4
 
 
 
-int health
-
-
-
+int cell_type #未実装
+int cell_level #未実装
+int cell_health #未実装
+int cell_attack #未実装
+int cell_defense #未実装
 
 
 
