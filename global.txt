@@ -63,8 +63,8 @@ int camera_last_x
 int camera_last_y
 int camera_pos_x
 int camera_pos_y
-
-
+int camera_delta_x
+int camera_delta_y
 
 
 
@@ -128,9 +128,9 @@ map<obj*, null> obj_particle
 
 
 
-map<obj*, null> obj_inventory
+map<obj*, null> obj_inventory_back
+map<obj*. null> obj_inventory_front
 int inventory_selectedindex #未実装
-
 
 
 
@@ -141,3 +141,12 @@ int inventory_selectedindex #未実装
 map<obj*, null> obj_cell #未実装
 map<str, struct cell*> cell_table #未実装
 vec<struct cell> cell_table_data #未実装
+
+
+
+
+
+
+
+map<obj*, null> obj_atomospthere
+map<obj*, null> obj_mountain #未実装

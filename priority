@@ -1,5 +1,7 @@
 0000: camera, mouse
 0500: sky
 1000: star
+1250: sun
 1500: displaytext
-2000: hud
+2000: inventory_back
+2001: inventory_front
