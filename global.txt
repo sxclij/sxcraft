@@ -34,7 +34,7 @@ vec<int> node_data
 vec<node*> node_free
 map<obj*, null> obj_all
 map<float, obj*> obj_priority
-map<float, obj*> obj_layer #未実装
+
 vec<obj*> obj_tmp1
 vec<obj*> obj_tmp2
 vec<obj*> obj_tmp3
@@ -48,105 +48,3 @@ vec<obj*> obj_clone
 
 
 
-
-
-
-
-
-
-
-
-
-
-obj* camera
-int camera_last_x
-int camera_last_y
-int camera_pos_x
-int camera_pos_y
-int camera_delta_x
-int camera_delta_y
-
-
-
-obj* mouse
-int mouse_pos_x
-int mouse_pos_y
-int mouse_delta_x
-int mouse_delta_y
-int mouse_start_x
-int mouse_start_y
-utc mouse_down
-utc mouse_up
-
-obj* player #未実装
-int player_pos_x #未実装
-int player_pos_y #未実装
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-map<obj*, null> obj_star
-utc star_lastspawn
-int star_count #未実装
-
-
-
-
-
-
-
-map<obj*, null> obj_ui #未実装
-
-
-
-
-
-
-
-
-
-map<obj*, null> obj_particle
-
-
-
-
-
-
-
-
-
-map<obj*, null> obj_inventory_back
-map<obj*. null> obj_inventory_front
-int inventory_selectedindex
-
-
-
-
-
-
-
-map<obj*, null> obj_cell #未実装
-map<str, struct cell*> cell_table #未実装
-vec<struct cell> cell_table_data #未実装
-
-
-
-
-
-
-
-map<obj*, null> obj_atomospthere
-map<obj*, null> obj_mountain #未実装
