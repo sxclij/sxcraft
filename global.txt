@@ -1,4 +1,3 @@
-any result
 any tmp01
 any tmp02
 any tmp03
@@ -15,6 +14,7 @@ any tmp13
 any tmp14
 any tmp15
 any tmp16
+
 int sp
 obj* current
 

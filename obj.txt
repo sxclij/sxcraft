@@ -10,9 +10,9 @@ float seed
 
 float pos_x
 float pos_y
-int size
+float size
 int dir
-int costume
+str costume
 float visibility
 float priority
 
@@ -53,7 +53,6 @@ int cell_level #未実装
 int cell_health #未実装
 int cell_attack #未実装
 int cell_defense #未実装
-
 
 
 
